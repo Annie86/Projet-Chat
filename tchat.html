@@ -3,13 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="tchat.css">
-    <link rel="stylesheet" type="text/js" href="tchat.js">
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
   </head>
   <body>
-   
-      <input type="text" id=chatBox>
-      <div id=monChat> <input type="text" id=chatText></div>
-      <button>Envoyer</button>
-        
+    
+    <p><input type="text" id=chatBox></p>
+    <input type="text" id=chatText>
+    <button id=sendMessage>Envoyer</button>
+    <button onclick="createUser();">create user </button>
+    <button onclick="monButton();">debug</button>
+<script>
+  var myUser;
+
+  function monButton(){
+    console.log(myUser);
+  }
+</script>
+  
+    <script src="tchat.js"></script>
   </body>
 </html>

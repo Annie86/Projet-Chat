@@ -4,7 +4,13 @@ body {
 }
 
 #chatBox {
-    background-image: url("pictures/background6.jpg");
+    background-image: url("pictures/background1.jpg");
+    width: 1000px;
+    height: 500px;
+}
+
+p#chatBox {
+   overflow: auto;
     width: 1000px;
     height: 500px;
 }
@@ -30,3 +36,4 @@ height: 500px;
 #textMessage {
     height: 200px;
 }
+

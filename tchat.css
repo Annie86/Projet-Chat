@@ -17,3 +17,16 @@ height: 100%;
 
 }
 
+p {
+color: white;
+padding-left: 15px;
+
+}
+
+div {
+    width: 69%;
+height: 500px;
+}
+#textMessage {
+    height: 200px;
+}

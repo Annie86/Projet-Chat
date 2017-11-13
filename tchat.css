@@ -1,6 +1,7 @@
 body {
     
     background-color: #3B3B3B;
+    margin-left: 150px;
 }
 
 #chatBox {
@@ -37,3 +38,7 @@ height: 500px;
     height: 200px;
 }
 
+input#textM{
+    margin-top: 300px;
+    width: 79%;
+}

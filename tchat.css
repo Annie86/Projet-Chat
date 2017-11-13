@@ -1,0 +1,20 @@
+body {
+    
+    background-color: #3B3B3B;
+}
+
+#chatBox {
+    background-image: url("pictures/background6.jpg");
+    width: 1000px;
+    height: 500px;
+}
+
+#chatText {
+
+width: 70%;
+height: 100%;
+}
+
+#monChat {
+    margin-top: 500px;
+}
